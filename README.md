@@ -28,19 +28,14 @@ A Python tool that analyzes your **resume** against a **job description** and hi
 
 1. Clone the repository:
 
-```bash
 git clone https://github.com/yourusername/resume-analyzer.git
 cd resume-analyzer
-Install dependencies:
 
-bash
-Copy code
+Install dependencies:
 pip install PyPDF2 python-docx
+
 Usage
 Run the main program:
-
-bash
-Copy code
 python main.py
 Select your resume file (TXT, PDF, DOCX)
 
@@ -48,8 +43,6 @@ Select the job description file (TXT, PDF, DOCX)
 
 The program outputs:
 
-markdown
-Copy code
 📄 Resume Analysis Report
 -----------------------------------
 Skill Match: 75%
